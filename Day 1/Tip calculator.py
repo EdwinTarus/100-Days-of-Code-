@@ -10,5 +10,4 @@ people = int(input("What is the number of people? "))
 totalBill = (bill + (bill * (percentage/100)))
 individualpay = totalBill/people
 
-print(f"The total bill is ${round(totalBill, 2)} 
-      and the amount to be paid by each individual is ${round(individualpay, 2)}")
+print(f"The total bill is ${round(totalBill, 2)} and the amount to be paid by each individual is ${round(individualpay, 2)}")
