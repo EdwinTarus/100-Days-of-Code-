@@ -1,0 +1,26 @@
+Blackjack is a popular card game typically played between one or more players and a dealer. The objective is to have a hand value as close to 21 as possible without going over. Here's a step-by-step breakdown of how the game works:
+
+1. Card Values
+Number cards (2-10) are worth their face value.
+Face cards (Jack, Queen, King) are worth 10 points each.
+Aces can be worth either 1 or 11 points, depending on which value benefits the hand the most.
+2. Game Setup
+Each player is dealt two cards, and the dealer is dealt two cards (one face up and one face down).
+Players can see their own cards and the dealer's face-up card.
+3. Player Choices
+Players have several options:
+
+Hit: Take another card to try to get closer to 21.
+Stand: Keep their current hand and end their turn.
+Double Down: Double their bet and take exactly one more card (usually allowed only as the first decision after receiving their initial cards).
+Split: If the initial two cards are of the same value, the player can split them into two separate hands (each with its own bet).
+4. Winning Conditions
+Blackjack: If the initial two cards total 21 (e.g., Ace + 10-point card), it is called a Blackjack, which usually wins 1.5x the bet unless the dealer also has a Blackjack.
+Bust: If a player's or dealer's hand exceeds 21, they go bust and automatically lose.
+Comparison: If neither the player nor the dealer busts, the hand closest to 21 wins. A tie (both having the same score) usually results in a push, where the player's bet is returned.
+5. Dealer's Rules
+The dealer must hit until their hand totals at least 17. This rule can vary slightly based on house rules (e.g., some casinos require the dealer to hit on a "soft 17," which includes an Ace counted as 11).
+6. Payouts
+Winning a standard hand typically pays 1:1.
+Winning with a Blackjack pays 3:2 (varies by house rules).
+Insurance, a side bet against the dealer having Blackjack, pays 2:1 but is usually considered unfavorable for the player.
