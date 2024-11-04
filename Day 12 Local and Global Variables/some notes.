@@ -1,0 +1,33 @@
+In programming, scope refers to the context in which variables, functions, and objects are accessible or visible. The scope determines the part of the code where a particular variable or function can be used or referenced. There are primarily two main types of scope:
+
+Local Scope:
+
+A variable has a local scope when it is declared within a function or a block (e.g., inside a loop or conditional statement).
+Variables with local scope are only accessible within the block or function where they are defined. Once the function or block is exited, these variables are no longer available.
+Example:
+python
+def my_function():
+    local_var = 10  # This variable has local scope.
+    print(local_var)  # Can be accessed here within the function.
+
+my_function()
+# print(local_var)  # This would raise an error because local_var is not defined outside the function.
+
+Global Scope:
+
+A variable has a global scope when it is declared outside of any function or block.
+Global variables are accessible from any part of the program, including inside functions and blocks (unless shadowed by a local variable with the same name).
+Example:
+python
+global_var = 20  # This variable has global scope.
+
+def another_function():
+    print(global_var)  # Can be accessed here because it has global scope.
+
+another_function()
+print(global_var)  # Can also be accessed outside the function.
+
+Key Differences:
+Local scope variables are limited to the function/block they are declared in, while global scope variables are accessible throughout the entire code.
+Local scope helps avoid unintended interference with variables in other parts of the code, which enhances modularity and reduces bugs.
+Use global scope variables with caution, as they can be modified from anywhere in the program, which might lead to unexpected behavior.
